@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Max Elliott Portfolio</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -13,9 +13,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+nav {
+  background-color: #87CEEB;
+}
+
+footer {
+   background-color: #3e3e3e;
+  color: #fff;
+}
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #87CEEB;
   padding: 30px;
   text-align: center;
   font-size: 20px;
@@ -54,7 +63,7 @@ article {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: #ADD8E6;
   padding: 10px;
   text-align: center;
   color: white;
@@ -69,10 +78,10 @@ footer {
 }
 </style>
 </head>
-<body>
+<body style="text-align: center;">
+  <h1><h2>Max Elliotts Portfolio</h2></h1>
+</body>
 
-<h2>Max Elliotts Portfolio</h2>
-<p>Here are a few examples of the work I have done</p>
 
 
 
@@ -88,27 +97,33 @@ footer {
   </nav>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    
+<p>Using OpenGL and C++</p>
+<p>
+In this project that I completed during my university course, our task was to create a fantasy scene, using Elden Ring as an example game. I chose to challenge myself by attempting to create a mesmerizing graphical effect that would allow players to seemlessly move between two distinct areas through 'portal'. Firstly, I loaded two separate skyboxes and utilized a quad that reflected a skybox, ensuring that it reflected the skybox that wasn't being viewed by the camera. By inverting the two sides of the skybox that were orthogonal to the face of the quad, I was able to give the ability to 'look through' the quad and observe the skybox on the other side. I then split the heightmap in half, using the worldspace postion of each side of the 'portal' to determine what texture would be applied to the heightmap. To add to the overall portal effect, I blended the texture from being sampled on either side of the portal to the other, i then blended the textures in the shader, to create the illusion of the each side of the portal bleeding onto the other. A gargoyle can be seen stationed outside the portal, being slightly transparent and being renderered with random in movements a small confined area. Finally there are some trees that are culled when they arent being looked at.
+</p>
   </article>
 </section>
 
 <footer>
-  <p>repo link here</p>
+  <p><a href="https://github.com/bointbemo/GraphicsProj">GO TO GITHUB REPOSITORY</a>
+</p>
 </footer>
 
+
 <header>
-  <h2>Game Engineering</h2>
+  <h2>Graphics for Games</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      
+     
     </ul>
   </nav>
   
+  <article>
+    
   <article>
     <h1>London</h1>
     <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
@@ -117,9 +132,9 @@ footer {
 </section>
 
 <footer>
-  <p>repo link here</p>
+   <p><a href="https://github.com/bointbemo/bointbemo.github.io/blob/main/gotogit.png?raw=true">GO TO GITHUB REPOSITORY</a>
+</p>
 </footer>
 
 </body>
 </html>
-
